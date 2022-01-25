@@ -34,7 +34,7 @@ public class Main {
 
         for (int i = 0; i < 42;i++) {
             for(int u = 0; u < 41; u++) {
-                if (da[u] < da[i]) {
+                if (da[u] > da[i]) {
                     int a = da[i];
                     da[i] = da[u];
                     da[u] = a;
